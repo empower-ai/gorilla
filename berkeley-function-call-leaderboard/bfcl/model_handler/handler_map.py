@@ -2,6 +2,7 @@ from bfcl.model_handler.claude_handler import ClaudeHandler
 from bfcl.model_handler.cohere_handler import CohereHandler
 from bfcl.model_handler.databricks_handler import DatabricksHandler
 from bfcl.model_handler.deepseek_handler import DeepseekHandler
+from bfcl.model_handler.empower_handler import EmpowerHandler
 from bfcl.model_handler.firework_ai_handler import FireworkAIHandler
 from bfcl.model_handler.functionary_handler import FunctionaryHandler
 from bfcl.model_handler.gemini_handler import GeminiHandler
@@ -100,5 +101,7 @@ handler_map = {
     "Salesforce/xLAM-7b-r": xLAMHandler,
     "Salesforce/xLAM-8x7b-r": xLAMHandler,
     "Salesforce/xLAM-8x22b-r": xLAMHandler,
-    "MadeAgents/Hammer-7b": HammerHandler
+    "MadeAgents/Hammer-7b": HammerHandler,
+    "empower-dev/llama3-empower-functions-small-v1.1": EmpowerHandler,
+    "empower-dev/llama3-empower-functions-large-v1.1": EmpowerHandler,
 }

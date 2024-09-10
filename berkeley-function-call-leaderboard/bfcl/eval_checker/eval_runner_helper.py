@@ -556,6 +556,18 @@ MODEL_METADATA_MAPPING = {
         "https://huggingface.co/MadeAgents/Hammer-7b",
         "MadeAgents",
         "cc-by-nc-4.0",
+    ],
+    "empower-dev/llama3-empower-functions-small-v1.1": [
+        "Empower-Fucntions-Small-v1.1 (FC)",
+        "https://huggingface.co/empower-dev/llama3-empower-functions-small-v1.1",
+        "Empower.dev",
+        "apache-2.0"
+    ],
+    "empower-dev/llama3-empower-functions-large-v1.1": [
+        "Empower-Fucntions-Large-v1.1 (FC)",
+        "https://huggingface.co/empower-dev/llama3-empower-functions-large-v1.1",
+        "Empower.dev",
+        "apache-2.0"
     ]
 }
 
