@@ -1,4 +1,5 @@
 from bfcl.model_handler.oss_model.deepseek import DeepseekHandler
+from bfcl.model_handler.oss_model.empower import EmpowerHandler
 from bfcl.model_handler.oss_model.gemma import GemmaHandler
 from bfcl.model_handler.oss_model.glaive import GlaiveHandler
 from bfcl.model_handler.oss_model.glm import GLMHandler
